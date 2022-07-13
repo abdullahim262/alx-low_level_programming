@@ -9,7 +9,8 @@
 int main(void)
 {
 	int pass, sum;
-	srand(time (null));
+
+	srand(time(null));
 	sum = 0;
 	while (sum <= 2645)
 	{
@@ -18,5 +19,6 @@ int main(void)
 		printf("%c", pass);
 	}
 	printf("%c", 2772 - sum);
+
 	return (0);
 }
