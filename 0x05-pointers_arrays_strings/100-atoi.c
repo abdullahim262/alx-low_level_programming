@@ -5,7 +5,7 @@
  * @s: pointer to the character string
  * Return: void
  */
-int _atoi (char *s)
+int _atoi(char *s)
 {
 	int sign;
 	unsigned int num;
@@ -16,17 +16,17 @@ int _atoi (char *s)
 	sign = 1;
 	while (*temp != '\0' && (*temp < '0' || *temp > '9'))
 	{
-		if (*temp =='-')
+		if (*temp == '-')
 			sign *= -1;
 		temp++;
 	}
 	if (*temp != '\0')
 	{
-		do
-		{
-			num = num * 10 + (*temp - '0'); temp++
-		}
-		while (*temp >= '0' && *temp <= '9');
+		do {
+			num = num * 10 + (*temp - '0');
+			temp++;
+		} while (*temp >= '0' && *temp <= '9');
+
 	}
-	return (num *sign);
+	return (num * sign);
 }
