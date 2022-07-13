@@ -7,9 +7,10 @@
  *
  * Return: this return copy
  */
-char -strcpy(char *dest, char *src)
+char *_strcpy(char *dest, char *src)
 {
 	char *start = dest;
+
 	while (*src != '\0')
 	{
 		*dest = *src;
