@@ -2,11 +2,11 @@
 
 /**
  * main -> this is function to prints its  name
- * @argc: argc parameter
+ * @args: args parameter
  * @argv: an array of the command listed
  * Return: 0 for success
  */
-int main(int argc, char *argv[])
+int main(int args, char *argv[])
 {
 	printf("%d\n", args - 1);
 	(void)argv;
