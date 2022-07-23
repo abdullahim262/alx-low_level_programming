@@ -6,7 +6,7 @@
  * @argv: an array of the command listed
  * Return: 0 for success
  */
-int main(int args, char *argv[])
+int main(int argc, char *argv[])
 {
 	printf("%d\n", args - 1);
 	(void)argv;
