@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - print the name of file program was compiled from
@@ -6,6 +7,6 @@
  */
 int main(void)
 {
-	printf("%s\n", _FILE);
+	printf("%s\n", _FILE_);
 	return (0);
 }
